@@ -1,0 +1,49 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+   
+   <div class="signup-bg">
+      <div class="container width  ">
+         <form #ref="ngForm" (ngSubmit)="SendData(ref)" >
+         <div class="form-group">
+            <label for="fname">First Name :</label>
+            <input type="text" id="fname" name="firstname" placeholder="Enter Your First Name" class="shadow-input form-control" ngModel required  #ref1="ngModel">
+            <div *ngIf="ref1.touched&&ref1.invalid" class="font-size text-danger ">*First Name is Required.</div>
+         </div>
+         <div class="form-group">
+            <label for="lname">Last Name :</label>
+            <input type="text" id="lname" name="lastname" placeholder="Enter Your Last Name" class="form-control shadow-input" ngModel required  #ref2="ngModel">
+            <div *ngIf="ref2.touched&&ref2.invalid" class="font-size text-danger ">*Last Name is Required.</div>
+         </div>
+         <div class="form-group">
+            <label for="email">Email :</label>
+            <input type="text" id="fname" name="email" placeholder="Enter Your Email" class="shadow-input form-control" ngModel required  #ref6="ngModel">
+            <div *ngIf="ref6.touched&&ref6.invalid" class="font-size text-danger">*Email is Required.</div>
+         </div>
+         <div class="form-group">
+            <label for="number">Contact Number :</label>
+            <input type="Phonenumber" id="nu'" name="Contact number" placeholder="Enter Your Contact Number" class="shadow-input form-control" maxlength="10" (keypress)="isNumber($event)" ngModel required  #ref4="ngModel">
+            <div *ngIf="ref4.touched&&ref4.invalid" class="font-size text-danger">*Contact Number  is required.</div>
+         </div>
+         <div class="form-group">
+            <label for="subject" class="space">Feedback :</label>
+            <textarea  id="subject" name="subject" placeholder="Enter Your Feedback.."  rows="4" class="form-control shadow-input" ngModel required  #ref5="ngModel"></textarea>
+            <div *ngIf="ref5.touched&&ref5.invalid" class="font-size text-danger">*Feedback is required.</div>
+         </div>
+         <div class="form-group">
+            <button type="submit" [disabled]="!ref.valid"  class="btn btn-success">Submit</button>  
+         </div>
+         </form>
+      </div>
+    </div>
+
+
+
+</body>
+</html> -->

@@ -1,0 +1,45 @@
+/* 
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;
+}
+
+input[type=text],input[type=Phonenumber], select,textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+ 
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit]:hover {
+  background-color: #204922;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f27a;
+  opacity: 0.9;
+  padding: 20px;
+}
+.width{
+    width: 450px;
+
+}
+.feedback-bg{
+  background-image: url();
+
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.shadow-input {
+    box-shadow: 1px 1px 3px #42423c inset;
+}
+.space{
+ padding-top: 12px;
+    margin-bottom: 10px;  
+}
+.font-size{
+font-size: small;
+} */

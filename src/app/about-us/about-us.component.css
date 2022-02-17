@@ -1,0 +1,20 @@
+body
+{
+    background-image: url(../../assets/Images/aboutusbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h5
+{
+    text-align: left;
+    color:rgb(129, 27, 75);
+    line-height:25px;
+    
+}
+
+#C
+{
+    text-align: center;
+}

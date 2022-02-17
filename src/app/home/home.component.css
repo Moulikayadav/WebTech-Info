@@ -1,0 +1,95 @@
+body
+{
+    background-color: rgb(41, 41, 40);
+}
+
+.intro
+{
+    background-image: url(../../assets/Images/home-page.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+/* .intro1
+{
+    background-image: url(https://thumbs.dreamstime.com/b/web-design-12286417.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro2
+{
+    background-image: url(https://www.neusol.com/wp-content/uploads/2019/01/WD03.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+h1{
+    text-align: left;
+    color:rgb(248, 10, 149);
+    text-shadow: slateblue;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h4{
+    text-align: left;
+    color: rgb(235, 46, 13);
+    text-decoration: yellow;
+    font-style: italic;
+}
+
+h5{
+    color: rgba(15, 71, 51, 0.897);
+    font-style:italic;
+}
+
+
+/* .intro3
+{
+    background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/blurred-sunset-sky-and-ocean-irina-moskalev.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro4
+{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/227/740/original/abstract-blurred-gradient-mesh-background-vector.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.intro5
+{
+    background-image: url(https://www.designbolts.com/wp-content/uploads/2014/03/Yellow-blur-background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+} */
+
+#A
+{
+    color: rgba(127, 42, 238, 0.945);
+    
+    
+}
+
+#B
+{
+    text-align: center;
+}
+
+p{
+    font-size: large;
+    font-style: italic;
+    line-height: 25px;
+    color: rgb(230, 25, 230);
+}

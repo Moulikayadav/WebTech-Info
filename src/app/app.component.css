@@ -1,0 +1,94 @@
+/* h1{
+    text-align: center;
+    color: brown;
+} */
+
+
+h1{
+    background-color: rgb(162, 240, 240);
+  width: 99%;
+  border: 5px solid rgb(103, 238, 25);
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  
+  color: rgb(252, 31, 178);
+}
+
+
+.right
+{
+    display: flex;
+    margin-left:950px ;
+}
+
+.margin
+{
+margin-left: 40px;
+color: rgb(110, 12, 58);
+font-size: medium;
+font-style: italic;
+font-weight: bolder;
+}
+
+.margin1
+{
+margin-left: 40px;
+color: rgb(206, 61, 17);
+font-size: medium;
+font-style: italic;
+font-weight: bolder;
+}
+
+.margin2
+{
+margin-left: 40px;
+color: rgb(100, 37, 184);
+font-size: medium;
+font-style: italic;
+font-weight: bolder;
+}
+
+.margin3
+{
+margin-left: 40px;
+color: rgb(136, 120, 31);
+font-size: medium;
+font-style: italic;
+font-weight: bolder;
+}
+
+.margin4
+{
+margin-left: 40px;
+color: rgb(50, 167, 147);
+font-size: medium;
+font-style: italic;
+font-weight: bolder;
+}
+
+.margin5
+{
+margin-left: 40px;
+color: rgb(28, 95, 7);
+font-size: medium;
+font-style: italic;
+font-weight: bolder;
+}
+
+
+.nav-link
+{        
+    font-size:medium;
+    font-style: italic;
+    color: rgba(244, 241, 250, 0.925);
+    font-weight: bolder;   
+}
+
+/* .navbar-nav
+{
+    border: 5px solid green;
+    padding: 3px;
+    margin: 3px;
+} */
+
